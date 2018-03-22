@@ -16,6 +16,31 @@
 		170B03F620634397009C203B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B03F520634397009C203B /* main.m */; };
 		170B040020634397009C203B /* ZZPBaiDuNaviDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B03FF20634397009C203B /* ZZPBaiDuNaviDemoTests.m */; };
 		170B040B20634397009C203B /* ZZPBaiDuNaviDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B040A20634397009C203B /* ZZPBaiDuNaviDemoUITests.m */; };
+		170B041A206344CA009C203B /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B0419206344CA009C203B /* UserNotifications.framework */; };
+		170B041C206344D3009C203B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B041B206344D3009C203B /* AudioToolbox.framework */; };
+		170B041E206344DC009C203B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B041D206344DC009C203B /* ImageIO.framework */; };
+		170B0420206344E5009C203B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B041F206344E5009C203B /* CoreMotion.framework */; };
+		170B0422206344EF009C203B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B0421206344EF009C203B /* CoreLocation.framework */; };
+		170B0424206344F8009C203B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B0423206344F8009C203B /* CoreTelephony.framework */; };
+		170B042620634500009C203B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B042520634500009C203B /* MediaPlayer.framework */; };
+		170B042820634508009C203B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B042720634508009C203B /* AVFoundation.framework */; };
+		170B042A20634510009C203B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B042920634510009C203B /* SystemConfiguration.framework */; };
+		170B042C2063451A009C203B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B042B2063451A009C203B /* JavaScriptCore.framework */; };
+		170B042E20634522009C203B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B042D20634522009C203B /* Security.framework */; };
+		170B04302063452A009C203B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B042F2063452A009C203B /* OpenGLES.framework */; };
+		170B043220634533009C203B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B043120634533009C203B /* GLKit.framework */; };
+		170B043420634547009C203B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B043320634547009C203B /* libstdc++.6.0.9.tbd */; };
+		170B043620634562009C203B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B043520634562009C203B /* libc++.tbd */; };
+		170B04382063456D009C203B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B04372063456D009C203B /* libsqlite3.0.tbd */; };
+		170B043A2063457C009C203B /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 170B04392063457C009C203B /* libz.1.2.5.tbd */; };
+		170B045820634997009C203B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B045720634997009C203B /* MainViewController.m */; };
+		170B045B206355B6009C203B /* PhoneGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B045A206355B6009C203B /* PhoneGPSViewController.m */; };
+		17CB1C292063A013005F6A5E /* updatelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17CB1C182063A012005F6A5E /* updatelog.txt */; };
+		17CB1C2A2063A013005F6A5E /* baiduNaviSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17CB1C232063A012005F6A5E /* baiduNaviSDK.bundle */; };
+		17CB1C2B2063A013005F6A5E /* baiduNaviSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CB1C242063A012005F6A5E /* baiduNaviSDK.xcassets */; };
+		17CB1C2C2063A013005F6A5E /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17CB1C252063A012005F6A5E /* readme.txt */; };
+		17CB1C2D2063A013005F6A5E /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CB1C272063A013005F6A5E /* libcrypto.a */; };
+		17CB1C2E2063A013005F6A5E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CB1C282063A013005F6A5E /* libssl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +78,42 @@
 		170B040620634397009C203B /* ZZPBaiDuNaviDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZPBaiDuNaviDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		170B040A20634397009C203B /* ZZPBaiDuNaviDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPBaiDuNaviDemoUITests.m; sourceTree = "<group>"; };
 		170B040C20634397009C203B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170B0419206344CA009C203B /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		170B041B206344D3009C203B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		170B041D206344DC009C203B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		170B041F206344E5009C203B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		170B0421206344EF009C203B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		170B0423206344F8009C203B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		170B042520634500009C203B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		170B042720634508009C203B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		170B042920634510009C203B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		170B042B2063451A009C203B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		170B042D20634522009C203B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		170B042F2063452A009C203B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		170B043120634533009C203B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		170B043320634547009C203B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		170B043520634562009C203B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		170B04372063456D009C203B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		170B04392063457C009C203B /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		170B045620634997009C203B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		170B045720634997009C203B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		170B0459206355B6009C203B /* PhoneGPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneGPSViewController.h; sourceTree = "<group>"; };
+		170B045A206355B6009C203B /* PhoneGPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneGPSViewController.m; sourceTree = "<group>"; };
+		17CB1C182063A012005F6A5E /* updatelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = updatelog.txt; sourceTree = "<group>"; };
+		17CB1C1A2063A012005F6A5E /* BNRoutePlanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRoutePlanModel.h; sourceTree = "<group>"; };
+		17CB1C1B2063A012005F6A5E /* BNCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCoreServices.h; sourceTree = "<group>"; };
+		17CB1C1C2063A012005F6A5E /* BNLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLocation.h; sourceTree = "<group>"; };
+		17CB1C1D2063A012005F6A5E /* BNRoutePlanManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRoutePlanManagerProtocol.h; sourceTree = "<group>"; };
+		17CB1C1E2063A012005F6A5E /* BNCommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonDef.h; sourceTree = "<group>"; };
+		17CB1C1F2063A012005F6A5E /* BNStrategyManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNStrategyManagerProtocol.h; sourceTree = "<group>"; };
+		17CB1C202063A012005F6A5E /* BNUIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIManagerProtocol.h; sourceTree = "<group>"; };
+		17CB1C212063A012005F6A5E /* BNLocationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLocationManagerProtocol.h; sourceTree = "<group>"; };
+		17CB1C222063A012005F6A5E /* BNaviModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNaviModel.h; sourceTree = "<group>"; };
+		17CB1C232063A012005F6A5E /* baiduNaviSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baiduNaviSDK.bundle; sourceTree = "<group>"; };
+		17CB1C242063A012005F6A5E /* baiduNaviSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = baiduNaviSDK.xcassets; sourceTree = "<group>"; };
+		17CB1C252063A012005F6A5E /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		17CB1C272063A013005F6A5E /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		17CB1C282063A013005F6A5E /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +121,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170B043A2063457C009C203B /* libz.1.2.5.tbd in Frameworks */,
+				170B04382063456D009C203B /* libsqlite3.0.tbd in Frameworks */,
+				170B043620634562009C203B /* libc++.tbd in Frameworks */,
+				170B043420634547009C203B /* libstdc++.6.0.9.tbd in Frameworks */,
+				170B043220634533009C203B /* GLKit.framework in Frameworks */,
+				170B04302063452A009C203B /* OpenGLES.framework in Frameworks */,
+				170B042E20634522009C203B /* Security.framework in Frameworks */,
+				170B042C2063451A009C203B /* JavaScriptCore.framework in Frameworks */,
+				17CB1C2D2063A013005F6A5E /* libcrypto.a in Frameworks */,
+				170B042A20634510009C203B /* SystemConfiguration.framework in Frameworks */,
+				170B042820634508009C203B /* AVFoundation.framework in Frameworks */,
+				170B042620634500009C203B /* MediaPlayer.framework in Frameworks */,
+				170B0424206344F8009C203B /* CoreTelephony.framework in Frameworks */,
+				170B0422206344EF009C203B /* CoreLocation.framework in Frameworks */,
+				170B0420206344E5009C203B /* CoreMotion.framework in Frameworks */,
+				170B041E206344DC009C203B /* ImageIO.framework in Frameworks */,
+				170B041C206344D3009C203B /* AudioToolbox.framework in Frameworks */,
+				17CB1C2E2063A013005F6A5E /* libssl.a in Frameworks */,
+				170B041A206344CA009C203B /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +167,7 @@
 				170B03FE20634397009C203B /* ZZPBaiDuNaviDemoTests */,
 				170B040920634397009C203B /* ZZPBaiDuNaviDemoUITests */,
 				170B03E120634397009C203B /* Products */,
+				170B0418206344CA009C203B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +184,8 @@
 		170B03E220634397009C203B /* ZZPBaiDuNaviDemo */ = {
 			isa = PBXGroup;
 			children = (
+				170B045520634969009C203B /* Controller */,
+				170B043B206345B8009C203B /* BaiduNaviSDK */,
 				170B03E320634397009C203B /* AppDelegate.h */,
 				170B03E420634397009C203B /* AppDelegate.m */,
 				170B03E620634397009C203B /* ViewController.h */,
@@ -133,6 +216,79 @@
 				170B040C20634397009C203B /* Info.plist */,
 			);
 			path = ZZPBaiDuNaviDemoUITests;
+			sourceTree = "<group>";
+		};
+		170B0418206344CA009C203B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				170B04392063457C009C203B /* libz.1.2.5.tbd */,
+				170B04372063456D009C203B /* libsqlite3.0.tbd */,
+				170B043520634562009C203B /* libc++.tbd */,
+				170B043320634547009C203B /* libstdc++.6.0.9.tbd */,
+				170B043120634533009C203B /* GLKit.framework */,
+				170B042F2063452A009C203B /* OpenGLES.framework */,
+				170B042D20634522009C203B /* Security.framework */,
+				170B042B2063451A009C203B /* JavaScriptCore.framework */,
+				170B042920634510009C203B /* SystemConfiguration.framework */,
+				170B042720634508009C203B /* AVFoundation.framework */,
+				170B042520634500009C203B /* MediaPlayer.framework */,
+				170B0423206344F8009C203B /* CoreTelephony.framework */,
+				170B0421206344EF009C203B /* CoreLocation.framework */,
+				170B041F206344E5009C203B /* CoreMotion.framework */,
+				170B041D206344DC009C203B /* ImageIO.framework */,
+				170B041B206344D3009C203B /* AudioToolbox.framework */,
+				170B0419206344CA009C203B /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		170B043B206345B8009C203B /* BaiduNaviSDK */ = {
+			isa = PBXGroup;
+			children = (
+				17CB1C232063A012005F6A5E /* baiduNaviSDK.bundle */,
+				17CB1C242063A012005F6A5E /* baiduNaviSDK.xcassets */,
+				17CB1C192063A012005F6A5E /* inc */,
+				17CB1C252063A012005F6A5E /* readme.txt */,
+				17CB1C262063A013005F6A5E /* thirdlibs */,
+				17CB1C182063A012005F6A5E /* updatelog.txt */,
+			);
+			path = BaiduNaviSDK;
+			sourceTree = "<group>";
+		};
+		170B045520634969009C203B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				170B045620634997009C203B /* MainViewController.h */,
+				170B045720634997009C203B /* MainViewController.m */,
+				170B0459206355B6009C203B /* PhoneGPSViewController.h */,
+				170B045A206355B6009C203B /* PhoneGPSViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17CB1C192063A012005F6A5E /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				17CB1C1A2063A012005F6A5E /* BNRoutePlanModel.h */,
+				17CB1C1B2063A012005F6A5E /* BNCoreServices.h */,
+				17CB1C1C2063A012005F6A5E /* BNLocation.h */,
+				17CB1C1D2063A012005F6A5E /* BNRoutePlanManagerProtocol.h */,
+				17CB1C1E2063A012005F6A5E /* BNCommonDef.h */,
+				17CB1C1F2063A012005F6A5E /* BNStrategyManagerProtocol.h */,
+				17CB1C202063A012005F6A5E /* BNUIManagerProtocol.h */,
+				17CB1C212063A012005F6A5E /* BNLocationManagerProtocol.h */,
+				17CB1C222063A012005F6A5E /* BNaviModel.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		17CB1C262063A013005F6A5E /* thirdlibs */ = {
+			isa = PBXGroup;
+			children = (
+				17CB1C272063A013005F6A5E /* libcrypto.a */,
+				17CB1C282063A013005F6A5E /* libssl.a */,
+			);
+			path = thirdlibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +397,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CB1C2B2063A013005F6A5E /* baiduNaviSDK.xcassets in Resources */,
+				17CB1C292063A013005F6A5E /* updatelog.txt in Resources */,
+				17CB1C2A2063A013005F6A5E /* baiduNaviSDK.bundle in Resources */,
 				170B03F320634397009C203B /* LaunchScreen.storyboard in Resources */,
+				17CB1C2C2063A013005F6A5E /* readme.txt in Resources */,
 				170B03F020634397009C203B /* Assets.xcassets in Resources */,
 				170B03EB20634397009C203B /* Main.storyboard in Resources */,
 			);
@@ -270,7 +430,9 @@
 			files = (
 				170B03EE20634397009C203B /* ZZPBaiDuNaviDemo.xcdatamodeld in Sources */,
 				170B03E820634397009C203B /* ViewController.m in Sources */,
+				170B045B206355B6009C203B /* PhoneGPSViewController.m in Sources */,
 				170B03F620634397009C203B /* main.m in Sources */,
+				170B045820634997009C203B /* MainViewController.m in Sources */,
 				170B03E520634397009C203B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +599,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUUNW48BU4;
 				INFOPLIST_FILE = ZZPBaiDuNaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZZPBaiDuNaviDemo/BaiduNaviSDK/thirdlibs",
+					"$(PROJECT_DIR)/ZZPBaiDuNaviDemo/BaiduNaviSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPBaiDuNaviDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,7 +620,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZUUNW48BU4;
 				INFOPLIST_FILE = ZZPBaiDuNaviDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZZPBaiDuNaviDemo/BaiduNaviSDK/thirdlibs",
+					"$(PROJECT_DIR)/ZZPBaiDuNaviDemo/BaiduNaviSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = MAC.ZZPBaiDuNaviDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

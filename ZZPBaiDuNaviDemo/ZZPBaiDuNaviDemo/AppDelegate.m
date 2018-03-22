@@ -7,15 +7,40 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BNCoreServices.h"
+#import "MainViewController.h"
+#define NAVI_TEST_BUNDLE_ID @"MAC.ZZPBaiDuNaviDemo"  //sdk自测bundle ID
+#define NAVI_TEST_APP_KEY   @"Cqfukvz3OWbea4cEMUelfQ7p4oHVkhBz"  //sdk自测APP KEY
+#define NAVI_TEST_APP_TTS   @"10974078"  //sdk自测APP TTS
 @interface AppDelegate ()
-
+@property (strong, nonatomic) MainViewController* mainViewController;
+@property (strong, nonatomic) UINavigationController* naviViewController;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.mainViewController = [[MainViewController alloc] initWithStyle:UITableViewStylePlain];
+    self.naviViewController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController]
+    ;
+    self.window.rootViewController = self.naviViewController;
+    [self.window makeKeyAndVisible];
+    
+    //初始化导航
+    [BNCoreServices_Instance initServices:NAVI_TEST_APP_KEY];
+    //语音播报TTS(在http://yuyin.baidu.com/app创建自己的应用，注册语音合成功能)
+    [BNCoreServices_Instance setTTSAppId:NAVI_TEST_APP_TTS];
+    
+    //设置是否自动退出导航
+    [BNCoreServices_Instance setAutoExitNavi:NO];
+    [BNCoreServices_Instance startServicesAsyn:nil fail:nil];
+    
+    
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
